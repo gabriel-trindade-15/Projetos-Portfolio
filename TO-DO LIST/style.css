@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial;
+    background-color: blanchedalmond;
+}
+.container {
+    height: 500px;
+    width: 600px;
+    position: relative;
+    top: 30px;
+    left: 35%;
+    background-color: rgb(253, 225, 183);
+    border-radius: 5px;
+    padding-left: 15px;
+    box-shadow: -3px -3px 25px black;
+}
+.container > h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 5px;
+}
+.container > label {
+    font-size: 26px;
+    position: relative;
+    top: 25px;
+    left: 5px;
+    font-weight: bold;
+}
+.container > input {
+    border: none;
+    border-bottom: 2px solid black;
+    position: absolute;
+    top: 68px;
+    left: 40%;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: blanchedalmond;
+    text-transform: uppercase;
+}
+#adicionarTarefa {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    padding: 8px 28px 8px 28px;
+    font-size: 18pt;
+    border: none;
+    background-color: rgb(231, 204, 164);
+    border-radius: 5px;
+    cursor: pointer;
+}
+#adicionarTarefa:hover {
+    border: 2px solid black;
+    transform: translateY(-10px);
+    transition: 1s;
+}
+ul {
+    position: absolute;
+    top: 50%;
+}
+li {
+    list-style: none;
+    font-size: 18pt;
+    text-transform: uppercase;
+}
+button {
+    position: relative;
+    left: 300px;
+    padding: 8px 28px 8px 28px;
+    font-size: 18pt;
+    border: none;
+    background-color: rgb(231, 204, 164);
+    border-radius: 5px;
+    cursor: pointer;
+}

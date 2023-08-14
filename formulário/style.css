@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+}
+body {
+    font-family: Arial;
+    background-color: #252225;
+    color: white;
+    margin-top: 110px;
+}
+fieldset {
+    margin-left: 460px;
+    width: 10px;
+    border: none;
+}
+legend  {
+    font-size: 23px;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+label {
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+input {
+    margin: 10px;
+    padding: 10px;
+    margin-left: 56px;
+    border-radius: 5px;
+    box-shadow: 8px 8px 8px black;
+}
+textarea {
+    margin: 2px;
+    font-family: Arial;
+    text-indent: 3px;
+    border-radius: 5px;
+    box-shadow: 8px 8px 8px black ;
+}
+button {
+    margin-left: 120px;
+    margin-top: 10px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+button:hover {
+    background: rgb(3, 1, 24);
+    color: white;
+}
